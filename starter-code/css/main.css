@@ -8,17 +8,16 @@ White: #FFF
 */
 
 nav{
-  height:30px
+  height:40px
 }
 
 nav img{
   float:left;
   width:auto;
-  height:25px
+  height:35px
 }
 
 nav ul{float:right;
-  margin-top:-2px
 
 }
 nav li{
@@ -37,6 +36,9 @@ margin:0px 10px
   float:clear;
   color:white;
   position:relative
+}
+.main-section h1{
+  font-size:3em
 }
 .centering-div {
   position: absolute;
@@ -67,34 +69,41 @@ margin:0px 10px
   background-color:#00B172;
   height:500px;
   width:100%;
-  color:white
+  color:white;
+  position:relative
 }
 .third-section p, .third-section h4{
   max-width:200px;
   margin-left:40px;
+  line-height:1.4em
   
+}
+.third-section h4{
+  font-size:1.1em
+}
+.third-section p{
+  font-size:.95em
 }
 .third-section h3{
   margin-left:40px;
   padding-top:30px;
+  font-size:1.5em
 }
-.third-section img[src="../images/spotify-app.png"]{
+.iphone-image{
   float:right;
-  position:relative;
+  /* position:relative;
   right:50px;
-  margin-top:-100px;
-  height:100px;
+  margin-top:-350px; */
+  height:400px;
   width:auto
- 
 }
-.third-section img[src="../images/spotify-icon-white.jpg"]{
-  position:relative;
-  left:45%;
-  bottom:250px;
-  height:50px;
-  width:auto
-  
- 
- 
+
+.spotify-white-image{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height:90px;
+  width:auto;
 }
 
